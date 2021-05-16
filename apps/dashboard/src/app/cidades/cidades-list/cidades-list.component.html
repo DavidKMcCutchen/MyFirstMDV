@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      <h1>Cidades</h1>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let cidade of cidades" (click)="selected.emit(cidade)">
+        <h3 matLine>{{cidade.name}}</h3>
+        <p matLine>{{cidade.state}}</p>
+        <p matLine>{{cidade.population}}</p>
+        <button mat-icon-button (click)="deleted.emit(cidade);$event.stopImmediatePropogation()">
+          <mat-icon *ngIf="!readonly">delete</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

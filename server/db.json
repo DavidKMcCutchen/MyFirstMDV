@@ -1,0 +1,32 @@
+{
+  "cidades": [
+    {
+      "id": 1,
+      "name": "Ilheus",
+      "state": "Bahia",
+      "population": "1000",
+      "visited": false
+    },
+    {
+      "id": 2,
+      "name": "Sao Paulo",
+      "state": "Sao Paulo",
+      "population": "100000",
+      "visited": false
+    },
+    {
+      "id": 3,
+      "name": "Salvador",
+      "state": "Bahia",
+      "population": "69000",
+      "visited": false
+    },
+    {
+      "id": 4,
+      "name": "Itabuna",
+      "state": "Bahia",
+      "population": "101010101",
+      "visited": false
+    }
+  ]
+}
